@@ -1,0 +1,6 @@
+1. Correct. 10/10
+2. For loop is correct. I cannot run the vector operation one. 7/10
+3. Correct. 15/15
+4. Qestion a is correct. 6/10
+
+Total: 32/35 + 6/10

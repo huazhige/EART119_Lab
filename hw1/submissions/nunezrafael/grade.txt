@@ -1,0 +1,5 @@
+1. I cannot input vairables. 9/10
+2. For loop is correct. 6/10
+3. The program does not return integer. 13/15
+
+Total: 28/35

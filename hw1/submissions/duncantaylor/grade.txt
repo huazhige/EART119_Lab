@@ -1,0 +1,6 @@
+1. Nothing is printed on the screen. 8/10
+2. Nothing is printed on the screen. Incomplete program. 6.5/10
+3. Answer is incorrect. 10/15
+4. Answer is incorrect. 4/10
+
+Total: 24.5/35 + 4/10

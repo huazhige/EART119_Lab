@@ -1,0 +1,9 @@
+#Area of Triangle
+
+def Area(h_b, b):
+    return 0.5*h_b*b
+
+h_b = 3     #h_b is the height of the triangle
+b = 6       #b is the length of the base of the triangle
+
+print Area(h_b, b)

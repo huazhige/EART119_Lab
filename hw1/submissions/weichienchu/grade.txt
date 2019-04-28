@@ -1,0 +1,4 @@
+1. How to input numbers? 9/10
+2. For loop is correct. 6/10
+
+Total: 15/35

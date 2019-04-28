@@ -1,0 +1,5 @@
+1. Correct. 10/10
+2. Loop function is correct. 8/10
+3. I cannot run the code. b is not defiend. 10/15
+
+Total: 28/35

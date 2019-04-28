@@ -1,4 +1,4 @@
-# Problem 2 for lab2
+# Problem 1 for lab2
 
 # Import modules
 import numpy as np

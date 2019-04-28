@@ -1,0 +1,6 @@
+1. 0/10
+2. Incossistent result. 8/10
+3. I cannot run your program. Program is not correct. 10/15
+4. I cannot run your program. 5/10
+
+Total: 18/35 + 5/10
