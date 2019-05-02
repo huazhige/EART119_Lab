@@ -1,0 +1,5 @@
+1. I cannot input my numbers. 9/10
+2. For loop is not correct. 4/10
+3. Correct. 15/15
+
+Total: 28/35 
