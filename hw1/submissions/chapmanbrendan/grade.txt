@@ -1,6 +1,6 @@
 1. Incorrect way to input vairables. 9/10
 2. Correct. 10/10
-3. The program does not return integer. 8/10
+3. The program does not return integer. 13/15
 4. 6/10
 
-Total: 27/30+6
+Total: 32/35+6
