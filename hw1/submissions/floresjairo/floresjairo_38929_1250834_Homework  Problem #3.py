@@ -8,7 +8,7 @@ Problem #3
 #/////////////Problem #3 ////////////
 #circle vs rectangle area
 
-#import libary
+ import libary
  import numpy as np
  #Create and Declare variable
  

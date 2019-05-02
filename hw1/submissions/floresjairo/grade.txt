@@ -1,0 +1,5 @@
+1. Correct. 10/10
+2. For loop is correct. 6/10
+3. I cannot run your program. 6/15
+
+Total: 22/35
