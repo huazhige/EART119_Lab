@@ -1,0 +1,4 @@
+1. "Basemaps" are not shown. 27/30
+2. I cannot click on your figure. 12/15
+
+Total: 39/45

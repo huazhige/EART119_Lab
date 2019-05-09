@@ -1,0 +1,9 @@
+1. I cannot run your program. 20/30
+  File "119_hw2_#1.py", line 92, in <module>
+    mag = mData2[-1]
+NameError: name 'mData2' is not defined
+
+2. I cannot run your program. 7/15
+  File "119_hw2.2.py", line 54, in <module>
+    mSeis  = mSeis.T[sel].T
+IndexError: arrays used as indices must be of integer (or boolean) type

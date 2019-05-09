@@ -1,0 +1,15 @@
+1. I cannot run your program. You should use matplotlib.pyplot to plot. 15/30
+Traceback (most recent call last):
+  File "ballmermikaela_22607_1274302_problem1.HW2.py", line 71, in <module>
+    matplotlib.figure(1)
+AttributeError: module 'matplotlib' has no attribute 'figure'
+
+2. I cannot run your program. 7/15
+Traceback (most recent call last):
+  File "ballmermikaela_22607_1274304_problem2.HW2.py", line 72, in <module>
+    tCoord = plt.ginput(dPar['nClicks'])
+KeyError: 'nClicks'
+
+Total: 22/45
+
+

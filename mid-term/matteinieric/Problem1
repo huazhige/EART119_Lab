@@ -1,0 +1,24 @@
+"""
+119-midterm problem.1
+compute best fit model using least squares
+"""
+import numpy as np
+import matplotlib.pyplot as plt
+
+# import and organize data ==============================================================================
+L_path = "midterm\star_luminos.txt"
+L_data = np.loadtxt(L_path).T
+#print(L_data[0], L_data[1])
+
+temp  = L_data[0]
+lumin = L_data[1]
+# plotting ====================================================================================
+#plt.xlim(10, 1000)
+f, axarr = plt.subplots(2, sharex=True)
+axarr[0].set_xlim(10, 1000)
+axarr[0].scatter(temp, lumin)
+axarr[0].set_title('Temperature vs Luminosity')
+axarr[1].set_title("Power law fit")
+axarr[1].set_xlim(10, 1000)
+axarr[1].plot(temp, lumin)
+plt.savefig('problem1.png')

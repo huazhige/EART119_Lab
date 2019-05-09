@@ -1,0 +1,5 @@
+1. I cannot run your program. 20/30
+2. x,y coordinates are not correct. 12/15
+
+Total: 32/45
+

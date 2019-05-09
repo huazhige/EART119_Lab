@@ -1,0 +1,8 @@
+1. I cannot run your program. 20/35
+2. I cannot run your program. 8/15
+
+  File "daltonkatie_34647_1275435_problem2.py", line 44, in <module>
+    aTime  = seis_utils.dateTime2decYr(YR , MO, DY , HR, MN , SC)
+NameError: name 'YR' is not defined 
+
+Total: 28/45

@@ -1,0 +1,12 @@
+I cannot run your program.
+
+Traceback (most recent call last):
+  File "chapmanbrendan_26691_1275621_hw2.py", line 78, in <module>
+    numpy.cumsum( numpy.ones(seism))
+  File "/Users/huazhige/anaconda3/lib/python3.6/site-packages/numpy/core/numeric.py", line 188, in ones
+    a = empty(shape, dtype, order)
+ValueError: sequence too large; cannot be greater than 32
+
+I can run your program after comment this sentence.
+
+35/45

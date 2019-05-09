@@ -1,0 +1,4 @@
+1. I cannot run your program. 20/30
+2. I cannot run your program. 8/15
+
+Total: 28/45

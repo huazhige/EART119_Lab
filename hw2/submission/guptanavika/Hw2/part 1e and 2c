@@ -1,0 +1,8 @@
+1e) From your analysis of earthquake rates and locations, in what year did seismicity rates start to significantly exceed historic values? When did earthquake rates start to again decrease? Can you speculate on why?
+
+I think that earthquake rates went up from normal amount at about 2009 since the graph shows that before 2010 earthquake rates started to rise. Earthquakes rates started to drop in 2016. I think that the earthquake rates started to decline due to the decline in injections. There is a correlation with the injections and the earthquakes, the earthquakes are obviously a result of the injections, therefore when the injections decline so did the rate of earthquakes. 
+
+
+2c) Compute the total area of the region affected by induced seismicity using the previously created function area_polygon.py. How does that compare to the total area of Oklahoma(181,000 km 2 )?
+
+The total area affected by seismicity was approximately 20,000 km2 which computer to the total size of Oklahoma is relatively small. It is about 10%. 

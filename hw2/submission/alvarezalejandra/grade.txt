@@ -1,0 +1,11 @@
+1. Encounter Issue: boundary resolution must be one of 'c','l','i','h' or 'f'
+25/30
+
+2. I cannot run your program.   
+
+File "alvarezalejandra_9951_1275105_HW_2_2.py", line 38, in <module>
+    aTime  = decyear(YR, MO, DY, HR, MN, SC)
+NameError: name 'YR' is not defined
+7/15
+
+33/45
