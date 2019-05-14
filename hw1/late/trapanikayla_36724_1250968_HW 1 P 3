@@ -1,0 +1,20 @@
+#Given conditions 
+r = 12.6
+a = 1.5
+
+#import math library to use pi
+import math 
+
+#Area of a Circle, A=pi*r^2
+def Area(r):
+    return (math.pi) * r * r
+ 
+b = 0   #starting value of b
+while a * b < Area(r):
+    print b
+    b = b + 1
+
+b = b - 1
+  
+print ('largest b value', b)
+

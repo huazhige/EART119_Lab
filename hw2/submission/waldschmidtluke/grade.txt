@@ -1,0 +1,4 @@
+1. Number of wells is not correct. 17/20
+2. I cannot run your program. 8/15
+
+Total: 25/35

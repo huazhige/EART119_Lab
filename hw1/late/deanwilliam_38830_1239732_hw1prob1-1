@@ -1,0 +1,22 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr  7 15:30:45 2019
+
+@author: williamdean
+"""
+#homework1#1 creating a program to calculate the area of a rectangle
+
+#A of rectangle=R
+b = int(input("Width of rectangle:"))
+c = int(input("Height of rectangle:"))
+area = b*c
+print("area of rectangle is", area)
+
+
+#homework1#2 program to calculate the area of a traingle
+
+hb = int(input("Height of traingle:"))
+b = int(input("Length of Base:"))
+area = 0.5*hb*b
+print("area of triangle is", area)

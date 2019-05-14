@@ -1,0 +1,9 @@
+#Area of Rectangle
+
+def Area(b, c):
+    return b*c      #Area of Rectangle, A=bc
+
+b = 2       #b is the length of the rectangle; choose any length
+c = 15       #c is the width of the rectangle; choose any width
+
+print Area(b, c)
