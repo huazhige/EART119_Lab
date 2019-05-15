@@ -1,5 +1,5 @@
 1. I cannot run your program.
-Data is loaded in a wrong way. 8/20
+Data is loaded in a wrong way. 12/30
 
 2. 5/15
-Total: 13/35
+Total: 17/35
