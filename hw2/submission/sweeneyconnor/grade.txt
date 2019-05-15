@@ -1,5 +1,5 @@
-1. I cannot run your program. 10/20
+1. I cannot run your program. 12/30
 2. I cannot run your program. 7/15
 
-Total: 17/35
+Total: 19/45
 
