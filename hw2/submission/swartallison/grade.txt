@@ -1,5 +1,5 @@
-1. Result is not correct. 14/20
+1. Result is not correct. 21/30
 2. No result. 9/15
 
-Total: 23/35
+Total: 30/45
 
