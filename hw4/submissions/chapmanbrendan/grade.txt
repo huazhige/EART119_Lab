@@ -1,0 +1,7 @@
+1. Not Correct. 5/8
+2. Not correct. 4/10
+3. No file. 0/4
+4. I cannot run your program. 4/10
+5. Not correct. 2/8
+
+Total: 15/40

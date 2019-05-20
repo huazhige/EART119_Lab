@@ -9,7 +9,7 @@ MIdterm problem 3 using central differences to take 1st and 2nd derivative
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.loadtxt( 'data/midterm_dydx.txt')
+data = np.loadtxt( 'midterm_dydx.txt')
 
 times, positions = data.T[0], data.T[1]
 

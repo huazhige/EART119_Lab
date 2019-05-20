@@ -23,9 +23,9 @@ import seis_utils
 #--------------------------0---------------------------------------------
 #                     params, dirs, files
 #------------------------------------------------------------------------
-data_dir   = 'C:\Users\Brady\Homework'
-file_eq    = 'C:\Users\Brady\Homework\Week 3 Homework\seism_OK.txt'
-file_well  = 'C:\Users\Brady\Homework\Week 3 Homework\injWell_OK.txt'
+data_dir   = './'
+file_eq    = './seism_OK.txt'
+file_well  = './injWell_OK.txt'
 
 
 dPar  =  {  'showRate'  : True,
@@ -96,7 +96,7 @@ for i in range( at_bin.shape[0]-1):
     sel_eq = np.logical_and( mSeis[0]  >= t1, mSeis[0]   < t2)
     #TODO: select wells with start dates before t1
     dPar['tmin']
-    print t1, t2, 'No. earthquakes', sel_eq.sum(), 'No. of wells', sel_we.sum()
+    print(t1, t2, 'No. earthquakes', sel_eq.sum(), 'No. of wells', sel_we.sum())
     ### create basemap object
     plt.figure(2)
     plt.cla()

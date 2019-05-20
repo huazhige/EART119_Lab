@@ -1,0 +1,117 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May  2 19:11:09 2019
+
+@author: camelliatamraz
+"""
+import numpy as np    
+import matplotlib.pyplot as plt
+import os
+
+#function definitons 
+t0 = 2.5       
+c = 1.1
+A = 5
+N = 100       
+tmin = -10     #minimum
+tmax = 10      #maximum
+t = linspace(tmin, tmax, N)     #creating the array
+
+def fct( f_t):     #inputting the fuctions
+    return c*(t - t0)**2
+
+def fct( g_t): 
+    return A*t + t0
+
+def dfdt( f_t):
+    return 
+
+def fct( )
+def my_Newton( fct, df_dt, x0, tol = 1e-4, N = 20):
+    """
+    :param fct:     - find root of this fct. closes to x0
+    :param dfct_dt: - derivatice of fct
+    :param x0:      - initial guess of solution
+    :param N:       - number of iterations, default = 20
+    :param tol:     - tolerance, default = 1e-4
+    :return: f_r0 - closest to x0
+    """
+    xn = float( x0)
+    i  = 0
+    while abs( fct( xn)) > tol and i < N: # could also set fct. to ~0 to find root instead of min.
+        x_next = xn - fct( xn)/df_dt( xn)
+        print i, abs( fct( xn)), x_next
+        xn = float( x_next)
+        i += 1
+    if abs( fct( xn)) > tol:# no solution found
+        return None
+    else:
+        return float( x_next)
+
+def my_Secant( fct, x0, x1, tol = 1e-4, N = 20):
+    """
+    :param fct:     - find root of this fct. closes to x0
+    :param dfct_dt: - derivatice of fct
+    :param x0, x1:  - interval for first secant estimate, with x0 close to root
+    :param N:       - number of iterations, default = 20
+    :param tol:     - tolerance, default = 1e-4
+
+              x_n+1 = (x_n - f(x_n))*[( x_n - x_n-1) / (f(x_n) - f(x_n-1))]
+        with: x_n+1 = x_next
+              x_n   = x1
+              x_n-1 = x0
+    :return: f_r0 - root between x0 and x1
+    """
+    x0 = float( x0)
+    x1 = float( x1)
+    i  = 0
+    while abs( fct( x1)) > tol and i < N: # could also set fct. to ~0 to find root instead of min.
+        df_dt  = float(fct( x1)-fct( x0))/(x1-x0)
+        x_next = x1 - fct( ( x1))/df_dt
+        print i, abs( fct( x1)), x_next
+        x0 = x1
+        x1 = x_next
+        # update variables at new step
+        i += 1
+    if abs( fct( x1)) > tol: # no solution found
+        return None
+    else:
+        return float( x_next)
+
+#===================================================================================
+#                           finding minima and maxima
+#===================================================================================
+
+def my_fmin(  dfdx, x0, tol = 1e-5, N = 10000):
+    """
+    from https://en.wikipedia.org/wiki/Gradient_descent
+      x_n+1 = x_n - gamma_n grad( f(xn))
+
+    :param fct:     - find root of this fct. closes to x0
+    :param dfct_dt: - derivatice of fct
+    :param x0:      - initial guess of solution
+    :param N:       - max. number of iterations, default = 20
+    :param tol:     - tolerance, default = 1e-4
+    :return: f_r0 - closest to x0
+
+    benchmark:
+        def fct( x):
+            return x**4 - 3*x**3 + const
+            #return x**2 - 9
+
+        def dfdx( x):
+            return 4 * x**3 - 9 * x**2
+
+        return: ('Minimum at', 2.2499646074278457)
+    """
+    next_x = x0  # We start the search at x=6
+    gamma  = 0.01  # Step size multiplier
+    i      = 0
+    step   = tol+1
+    while abs(step) > tol and i <  N:
+        current_x = next_x
+        next_x = current_x - gamma * dfdx(current_x)
+        step = next_x - current_x
+        i += 1
+    return next_x
