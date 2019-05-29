@@ -56,8 +56,8 @@ print(roots)
 print(froots)
 
 
-plt.plot(x0s, g(t))
-plt.plot(x0s, f(t))
+plt.plot(x0s, g(x0s))
+plt.plot(x0s, f(x0s))
 plt.title('Crossover points of f(t)-g(t)')
 plt.show()
 #plt.savefig("HW_4_2.png", bbox_inches='tight')

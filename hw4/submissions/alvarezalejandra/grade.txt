@@ -1,7 +1,7 @@
 1. Correct. 8/8
 2. Not correct. 6/10
 3. Not correct. 1/4
-4. The results of equation a and b are not correct. 3/10
+4. The results of equation a is not correct. 6/10
 5. I cannot run your program. 3/8
 
 Total: 21/40

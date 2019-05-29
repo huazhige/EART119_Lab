@@ -2,7 +2,7 @@ import numpy as np
 
 def function(x):
              # -10 < x < 10
-    return(-(x**5) + (1/3)*(x**2) + 0.5 )
+    return(-(x**5) + (1./3.)*(x**2) + 0.5 )
 
 def secant_method(f, x0, x1, max_iter=100, tolerance = 1e-5):
     steps_taken = 1
@@ -12,7 +12,7 @@ def secant_method(f, x0, x1, max_iter=100, tolerance = 1e-5):
         steps_taken += 1
     return x2, steps_taken
  
-f = lambda x: -(x**5) + (1/3)*(x**2) + 0.5
+f = lambda x: -(x**5) + (1./3.)*(x**2) + 0.5
  
 root, steps = secant_method(f, 2, 8)
 print ("root is:", root)

@@ -1,0 +1,4 @@
+1. Result is not correct. 3/5
+2. Exact solution and numerical solution are not correct. 4/10
+
+Total: 7/25 

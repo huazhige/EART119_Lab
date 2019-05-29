@@ -1,0 +1,5 @@
+1. 5/5
+2. The program does not use middle point. 9/10
+3. The result of the first equation is not correct. 8/10
+ 
+Total: 22/25
